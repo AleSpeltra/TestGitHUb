@@ -1,0 +1,19 @@
+Name: UserEditor
+Type: FolderType
+Children:
+- Name: ns=6;LibraryReference
+  Type: ObjectLibraryReference
+  DataType: ObjectLibraryReferenceDataType
+  Value: 
+   {
+    "TypeId": {
+     "Id": 72,
+     "Namespace": 6
+    },
+    "Body": {
+     "libraryGuid": "de905a58759b4ff38bbb66c9d44c67ad",
+     "objectGuid": "b1383ec80ec1abef41e545c078cff5c2",
+     "objectVersion": 1,
+     "highestIgnoredVersion": 0
+    }
+   }
