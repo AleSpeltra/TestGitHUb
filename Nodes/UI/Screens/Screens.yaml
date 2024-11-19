@@ -60,12 +60,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 690.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 510.0
+      Value: 500.0
   - Name: SpinBox3
     Type: SpinBox
     Children:
@@ -97,7 +97,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 460.0
+      Value: 690.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -150,21 +150,32 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
-    - Name: LeftMargin
+  - Name: SpinBox1
+    Type: SpinBox
+    Children:
+    - Name: Value
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 860.0
+      Value: 220.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 20.0
-    - Name: Color
-      Type: BaseDataVariableType
-      DataType: Color
+      Value: 130.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
       ModellingRule: Optional
-      Value: "#008000"
+      Value: 40.0
 - Name: Alarm
   Id: g=ffc4f697f955e5018ccaf06cfce26b72
   Supertype: Screen
